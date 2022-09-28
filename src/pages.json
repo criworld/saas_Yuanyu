@@ -1,0 +1,420 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+			"list-data": "@/components/listData/listData",
+			"cardBagList": "@/pages/cardBag/components/cardBagList",
+			"homeTopBar": "@/components/common/homeTopBar.vue",
+			"listDataNew": "@/components/listData/listDataNew",
+			"MButton": "@/components/widget/MButton.vue",
+			"steps": "@/components/common/steps",
+			"commonSub": "@/components/common/commonSub",
+			"seckillSub": "@/components/common/seckillSub",
+			"share": "@/components/share/index",
+			"avatar": "@/components/yq-avatar/yq-avatar.vue",
+			"winList": "@/pages/mine/components/win-list",
+			"meTabs": "@/components/me-tabs/me-tabs.vue",
+			"notLogin": "@/components/common/notLogin.vue",
+			"purchaseList": "@/pages/mine/components/purchaseList",
+			"seckillList": "@/pages/mine/components/seckillList",
+			"listDataCollect": "@/components/listData/listDataCollect",
+			"versionUpdate": "@/components/version-update/version-update"
+		}
+	},
+	"pages": [
+		// {
+		// 	"path": "pages/ceshi"
+		// }, 
+		{
+			"path": "pages/homePages/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/homePages/detailBuy",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/homePages/seckillTime",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/homePages/bannerText",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/homePages/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/homePages/activityDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/cardBag/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/mine/set/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/set/personal",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/agreement",
+			"style": {
+				"navigationBarTitleText": "协议",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/set/nickname",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/set/cancellation",
+			"style": {
+				"navigationBarTitleText": "账号注销提示",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/set/authentication",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/set/setLoginPwd",
+			"style": {
+				"navigationBarTitleText": "设置登录密码",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "手机验证码登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/login/forgotPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/goPurchase/index",
+			"style": {
+				"navigationBarTitleText": "我的认购",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/winningList",
+			"style": {
+				"navigationBarTitleText": "中签记录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/winningListDetails",
+			"style": {
+				"navigationBarTitleText": "中签记录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/goPurchase/details",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/goPurchase/payDeails",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/login/pwd",
+			"style": {
+				"navigationBarTitleText": "密码",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/set/cancelAccount",
+			"style": {
+				"navigationBarTitleText": "账号注销提示",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/mine/changePwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+
+		},
+		{
+			"path": "pages/cardBag/details",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/pay",
+			"style": {
+				"navigationBarTitleText": "收银台",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/call",
+			"style": {
+				"navigationBarTitleText": "联系我们",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/find/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#B2B6BB",
+		"selectedColor": "#4C4E51",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"height": "50px",
+		"list": [{
+				"pagePath": "pages/homePages/index",
+				"iconPath": "static/tabBarImg/shouye_w.png",
+				"selectedIconPath": "static/tabBarImg/shouye.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/cardBag/index",
+				"iconPath": "static/tabBarImg/kabao_w.png",
+				"selectedIconPath": "static/tabBarImg/kabao.png",
+				"text": "卡包"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/tabBarImg/wode_w.png",
+				"selectedIconPath": "static/tabBarImg/wode.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ABverse",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
